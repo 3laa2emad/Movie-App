@@ -1,0 +1,188 @@
+::selection{
+  background-color: white;
+  color: black;
+}
+:root {
+  scroll-behavior: smooth;
+}
+#HomePage{
+  overflow: auto;
+}
+
+#HomePage input::placeholder{
+color: #636972;
+}
+
+.contentSideBar ul{
+  list-style: none;
+  
+}
+
+.contentSideBar ul li a{
+ text-decoration: none;
+ color: white;
+ transition: 0.5s all;
+
+}
+
+.contentSideBar ul li{
+  margin-top: 20px;
+}
+
+.contentSideBar ul li a:hover{
+  color: red;
+  }
+  .iconsSideBar ul {
+    list-style: none;
+  }
+
+.contentSideBar{
+  height: 520px;
+}
+.sidebar{
+  width: 250px;
+  left: -250px;
+  top: 0;
+  bottom: 0;
+  background-color: black;
+  z-index: 99999;
+}
+.contentfooter span a{
+  color: #B02725;
+text-decoration: none;
+}
+.contentfooter{
+  color: #686868;
+}
+
+.leftBar{
+  left: 100%;
+  top: 0;
+  bottom: 0;
+  width: 70px;
+  background-color: white;
+}
+.logoside{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.icone3{
+  display: flex;
+  flex-direction: column;
+
+}
+.icone3 > i {
+  margin-bottom: 5px;
+}
+.icone2{
+  cursor: pointer;
+}
+.movieContent{
+  inset: 0;
+}
+
+.movieContent h1 {
+  color: #FFFFFF;
+  font-size: 35px;
+font-weight: 700;
+text-align: center;
+}
+
+.movieContent .description {
+  color: #EDEDED;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.movieContent .descriptionTwo{
+  color: #FFFFFF;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.movieRating{
+  width: 30px;
+  height:30px;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid green;
+  border-radius: 50%;
+}
+
+.movieRating .Rate{
+  transform: translate(-5px , -12px);
+  color:white;
+}
+
+.movieContent{
+  opacity: 0;
+  transition: 0.5s all;
+}
+
+.innerdiv:hover .movieContent{
+opacity: 1;
+background-color: rgba(0, 0, 0, 0.5);
+}
+.imageDesign{
+transition: 0.5s all;
+}
+.innerdiv:hover .imageDesign{
+transform: rotate(3deg) scale(1.1);
+}
+
+.DivContact .inputs input{
+
+background-color: transparent;
+border: transparent;
+border-bottom: 1px solid white;
+
+}
+.inputs input::placeholder{
+  text-align: center;
+}
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+}
+
+.titleContact h2{
+color: white;
+font-size: 32px;
+font-weight: 300;
+}
+
+.DivContact button{
+  width: 100px;
+  padding: 5px;
+
+}
+.btn-outline-dark {
+  --bs-btn-color: #fff;
+  --bs-btn-border-color: #000;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #000;
+  --bs-btn-focus-shadow-rgb: 33,37,41;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #212529;
+}
+
+  .toUp{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+   position: fixed;
+   bottom: 25px;
+   right: 35px;
+   display: none;
+  }
+  .toUp i{
+    color: white;
+  }
